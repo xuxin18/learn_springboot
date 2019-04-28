@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="learn_springboot" />
+        <module name="spring-boot-02-helloworld-quick" />
+        <module name="springboot-01-helloworld" />
+        <module name="springboot-02-helloworld-quick" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="learn_springboot" target="1.8" />
+      <module name="spring-boot-02-helloworld-quick" target="1.8" />
+      <module name="springboot-01-helloworld" target="1.8" />
+      <module name="springboot-02-helloworld-quick" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

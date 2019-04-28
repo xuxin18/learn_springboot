@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>learn_springboot</groupId>
+    <artifactId>spring-boot-01-helloworld</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- 其实 spring-boot-starter-parent 依赖的是 spring-boot-dependencies （被称为 版本仲裁中心：它里面给定了一下导入的jar包的版本）-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.9.RELEASE</version>
+    </parent>
+
+    <!-- spring-boot-starter ： 场景启动器
+            springboot 将所有场景都抽取出来，做成一个个的 starters（启动器），只需要在项目里面引入
+            这些启动器，相关场景的所有依赖就会导入。
+     -->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <!-- spring-boot-starter-web ： 帮我们自动导入了 web模块正常运行所依赖的组件 -->
+            <artifactId>spring-boot-starter-web</artifactId>
+
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- 这个 maven插件 可以将应用打包成一个可执行的jar包 -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

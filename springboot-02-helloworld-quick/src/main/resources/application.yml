@@ -1,0 +1,35 @@
+server:
+  port: 8081
+
+### 如果将 person 指定绑定的文件 为person.properties，则下面的persion配置要被注释掉
+# person:
+#    name: jack
+#    age: 25
+#    boss: false
+#    birth: 2019/04/26
+
+    # map 结构的行内写法
+#   electronic_product: {phone: mi9, computer: 战神, pad: ipad}
+    # map 结构的一般写法
+#   favorite:
+#     book: '修真四万年'
+#     movie: "Iron Man"
+#     star:  Jay Zhou
+
+    # list 结构的行内写法
+#   friends: [jan, mike, sam]
+    # list结构的一般写法
+#   pets:
+#     - dog
+#     - cat
+#     - pig
+
+    # 复合结构：list中存对象
+#   children:
+#     - name: maria
+#       age: 5
+#     - name: 'tom'
+#       age: 3
+
+book:
+  name: 雪中悍刀行
