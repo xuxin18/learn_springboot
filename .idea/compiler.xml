@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/springboot-04-autoconfig/src/main/java/early_bird/learn_autoconfig/HttpEncodingAutoConfiguration.java" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="learn_springboot" />
         <module name="spring-boot-02-helloworld-quick" />
         <module name="springboot-01-helloworld" />
         <module name="springboot-02-helloworld-quick" />
+        <module name="springboot-03-config" />
+        <module name="springboot-04-autoconfig" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +21,8 @@
       <module name="spring-boot-02-helloworld-quick" target="1.8" />
       <module name="springboot-01-helloworld" target="1.8" />
       <module name="springboot-02-helloworld-quick" target="1.8" />
+      <module name="springboot-03-config" target="1.8" />
+      <module name="springboot-04-autoconfig" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

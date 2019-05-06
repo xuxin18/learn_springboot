@@ -3,6 +3,8 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/springboot-01-helloworld" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-02-helloworld-quick" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-03-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-04-autoconfig" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

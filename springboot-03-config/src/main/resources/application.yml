@@ -1,0 +1,8 @@
+
+server:
+  port: 8081
+
+# \u9009\u62E9\u4F7F\u7528\u54EA\u4E2A\u914D\u7F6E\u6587\u4EF6
+spring:
+  profiles:
+    active: test

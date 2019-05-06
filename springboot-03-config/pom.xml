@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>learn_springboot</groupId>
-	<artifactId>spring-boot-02-helloworld-quick</artifactId>
+	<artifactId>springboot-03-config</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-02-helloworld-quick</name>
+	<name>springboot-03-config</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -28,13 +28,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-
-		<!-- 导入 配置文件处理器 -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-configuration-processor</artifactId>
-			<optional>true</optional>
 		</dependency>
 	</dependencies>
 
