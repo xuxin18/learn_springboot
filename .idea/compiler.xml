@@ -14,6 +14,11 @@
         <module name="springboot-02-helloworld-quick" />
         <module name="springboot-03-config" />
         <module name="springboot-04-autoconfig" />
+        <module name="springboot-05-logging" />
+        <module name="springboot-05-web-jsp" />
+        <module name="springboot-06-web-jsp" />
+        <module name="springboot-07-web-autoconfig" />
+        <module name="springboot-08-web-restfulcrud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +28,11 @@
       <module name="springboot-02-helloworld-quick" target="1.8" />
       <module name="springboot-03-config" target="1.8" />
       <module name="springboot-04-autoconfig" target="1.8" />
+      <module name="springboot-05-logging" target="1.8" />
+      <module name="springboot-05-web-jsp" target="1.8" />
+      <module name="springboot-06-web-jsp" target="1.8" />
+      <module name="springboot-07-web-autoconfig" target="1.8" />
+      <module name="springboot-08-web-restfulcrud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

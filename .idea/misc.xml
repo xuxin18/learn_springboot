@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <type id="Spring" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -8,6 +11,11 @@
         <option value="$PROJECT_DIR$/springboot-02-helloworld-quick/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-03-config/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-04-autoconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-05-logging/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-05-web-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-web-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-07-web-autoconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-08-web-restfulcrud/pom.xml" />
       </list>
     </option>
   </component>
