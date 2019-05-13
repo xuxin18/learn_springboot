@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- 导入 thymeleaf 的名称空间-->
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>templates 成功！</h1>
+    <div th:text="${hello}">显示欢迎信息</div>
+    <hr/>
+    <div th:text="${templates}"></div>
+    <div th:utext="${templates}"></div>
+    <hr/>
+
+<!-- th:each 每次遍历都会生成当前这个标签-->
+<h4 th:text="${user}" th:each="user:${users}"></h4>
+<hr/>
+<h4>
+    <span th:each="user:${users}">[[${user}]]</span>
+</h4>
+</body>
+</html>

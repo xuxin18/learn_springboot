@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.9.RELEASE</version>
+		<version>1.5.10.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>learn_springboot</groupId>
@@ -15,6 +15,8 @@
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
+		<!--<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>-->
 		<java.version>1.8</java.version>
 		<!-- 布局功能的支持程序  thymeleaf3主程序  layout2以上版本 -->
 		<thymeleaf-layout-dialect.version>2.2.2</thymeleaf-layout-dialect.version>
@@ -22,21 +24,37 @@
 	</properties>
 
 	<dependencies>
+		<!-- 引入web模块 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+
 		</dependency>
 
-		<!-- 以 webjars 的方式 引入 jqury-webjar -->
-		<dependency>
-			<groupId>org.webjars</groupId>
-			<artifactId>jquery</artifactId>
-			<version>3.4.1</version>
-		</dependency>
+		<!--引入其他的Servlet容器-->
+		<!--<dependency>
+			<artifactId>spring-boot-starter-undertow</artifactId>
+			<groupId>org.springframework.boot</groupId>
+		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+
+		<!--引入jquery-webjar-->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jquery</artifactId>
+			<version>3.3.1</version>
+		</dependency>
+
+		<!--引入bootstrap-->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>4.0.0</version>
 		</dependency>
 
 		<dependency>
@@ -54,5 +72,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
