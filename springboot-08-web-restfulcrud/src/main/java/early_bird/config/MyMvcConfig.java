@@ -1,11 +1,9 @@
 package early_bird.config;
 
-import early_bird.component.LoginHandlerInterceptor;
 import early_bird.component.MyLocaleResolver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
-import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
@@ -30,12 +28,15 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter{
                 registry.addViewController("/main.html").setViewName("dashboard");
             }
 
+            /*
+            为了测试springboot的 定制错误响应，暂时先注释掉
             //添加注册拦截器
             @Override
             public void addInterceptors(InterceptorRegistry registry) {
                 registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**")
                         .excludePathPatterns("/index.html", "/", "/user/login");
             }
+            */
         };
         return adapter;
     }

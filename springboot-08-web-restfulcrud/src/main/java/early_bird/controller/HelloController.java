@@ -1,7 +1,10 @@
 package early_bird.controller;
 
+import early_bird.exception.UserNotExistException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -41,5 +44,16 @@ public class HelloController {
         map.put("users", Arrays.asList("张三", "李四"));
         //打开的页面的位置为： classpath:/templates/success.html
         return "success";
+    }
+
+    /* 模拟抛出用户不存在的异常 在没自定义异常处理器的时候，输出的异常信息是默认的
+       http://localhost:8081/crud/hello?user=aaa */
+    @ResponseBody
+    @RequestMapping("/hello")
+    public String hello(@RequestParam("user") String user){
+        if (user.equals("aaa")){
+            throw new UserNotExistException();
+        }
+        return "Hello World";
     }
 }

@@ -7,7 +7,7 @@ import early_bird.entities.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
@@ -41,7 +41,41 @@ public class EmployeeController {
     public String toAddPage(Model model){
         Collection<Department> departments = departmentDao.getDepartments();
         model.addAttribute("depts",departments);
-
         return "emp/add";
+    }
+
+    //添加员工。springmvc能自动将请求参数和入参对象的属性进行一一绑定（前提：请求参数的名字和 javabean入参的对象里面的属性名是一样的）
+    @PostMapping("/emp")
+    public String addEmp(Employee employee){
+        System.out.println("保存的员工信息：" + employee);
+        employeeDao.save(employee);
+        //添加后来到员工列表页面。（redirect: 重定向  forword: 转发）
+        return "redirect:/emps";
+    }
+
+    //先查出当前员工进行回显
+    @GetMapping("/emp/{id}")
+    public String toEditPage(@PathVariable("id") Integer id, Model model){
+        Employee employee = employeeDao.get(id);
+        model.addAttribute("emp", employee);
+
+        Collection<Department> departments = departmentDao.getDepartments();
+        model.addAttribute("depts",departments);
+
+        //去到修改页面 （add页面既可以添加也可以修改）
+        return "/emp/add";
+    }
+
+    @PutMapping("/emp")
+    public String updateEmp(Employee employee){
+        System.out.println("修改的员工数据" + employee);
+        employeeDao.save(employee);
+        return "redirect:/emps";
+    }
+
+    @DeleteMapping("/emp/{id}")
+    public String deleteEmp(@PathVariable("id") Integer id){
+        employeeDao.delete(id);
+        return "redirect:/emps";
     }
 }
