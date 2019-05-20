@@ -19,6 +19,8 @@
         <module name="springboot-06-web-jsp" />
         <module name="springboot-07-web-autoconfig" />
         <module name="springboot-08-web-restfulcrud" />
+        <module name="springboot-09-servletcontainer" />
+        <module name="springboot-10-data-jdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +35,8 @@
       <module name="springboot-06-web-jsp" target="1.8" />
       <module name="springboot-07-web-autoconfig" target="1.8" />
       <module name="springboot-08-web-restfulcrud" target="1.8" />
+      <module name="springboot-09-servletcontainer" target="1.8" />
+      <module name="springboot-10-data-jdbc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

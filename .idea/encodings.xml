@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/springboot-06-web-jsp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-07-web-autoconfig" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-08-web-restfulcrud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-09-servletcontainer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-10-data-jdbc" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

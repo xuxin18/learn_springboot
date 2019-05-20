@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/springboot-06-web-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-07-web-autoconfig/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-08-web-restfulcrud/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-09-servletcontainer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-10-data-jdbc/pom.xml" />
       </list>
     </option>
   </component>

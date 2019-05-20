@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-06-web-jsp/springboot-06-web-jsp.iml" filepath="$PROJECT_DIR$/springboot-06-web-jsp/springboot-06-web-jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-07-web-autoconfig/springboot-07-web-autoconfig.iml" filepath="$PROJECT_DIR$/springboot-07-web-autoconfig/springboot-07-web-autoconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-08-web-restfulcrud/springboot-08-web-restfulcrud.iml" filepath="$PROJECT_DIR$/springboot-08-web-restfulcrud/springboot-08-web-restfulcrud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-09-servletcontainer/springboot-09-servletcontainer.iml" filepath="$PROJECT_DIR$/springboot-09-servletcontainer/springboot-09-servletcontainer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-10-data-jdbc/springboot-10-data-jdbc.iml" filepath="$PROJECT_DIR$/springboot-10-data-jdbc/springboot-10-data-jdbc.iml" />
     </modules>
   </component>
 </project>

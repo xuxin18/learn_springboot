@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    # \u4F7F\u7528 jdbc \u7684 mysql \u534F\u8BAE \u8FDE\u63A5\u5230 192.168.131.130:3306 \u7684 testjdbc\u6570\u636E\u5E93
+    url: jdbc:mysql://192.168.131.130:3306/testjdbc
+    # \u9A71\u52A8
+    driver-class-name: com.mysql.jdbc.Driver
+    schema:
+      - classpath: department.sql
+
