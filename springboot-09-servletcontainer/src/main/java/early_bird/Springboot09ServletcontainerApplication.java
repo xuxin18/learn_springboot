@@ -16,6 +16,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 		ServletRegistrationBean
 		FilterRegistrationBean
 		ServletListenerRegistrationBean
+			原理：具体查看 EmbeddedWebApplicationContext 的 onRefresh -> createEmbeddedServletContainer ->selfInitialize 该方法可以初始化 ServletContextInitializer 类型的类
 
 注册Servlet的典型例子：
 	SpringBoot启动SpringMVC的时候，自动注册了 SpringMVC的前端控制器（DisPatcherServlet）

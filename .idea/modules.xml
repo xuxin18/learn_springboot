@@ -7,11 +7,13 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-03-config/springboot-03-config.iml" filepath="$PROJECT_DIR$/springboot-03-config/springboot-03-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-04-autoconfig/springboot-04-autoconfig.iml" filepath="$PROJECT_DIR$/springboot-04-autoconfig/springboot-04-autoconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-05-logging/springboot-05-logging.iml" filepath="$PROJECT_DIR$/springboot-05-logging/springboot-05-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-web-externaltomcat/springboot-06-web-externaltomcat.iml" filepath="$PROJECT_DIR$/springboot-06-web-externaltomcat/springboot-06-web-externaltomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-web-jsp/springboot-06-web-jsp.iml" filepath="$PROJECT_DIR$/springboot-06-web-jsp/springboot-06-web-jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-07-web-autoconfig/springboot-07-web-autoconfig.iml" filepath="$PROJECT_DIR$/springboot-07-web-autoconfig/springboot-07-web-autoconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-08-web-restfulcrud/springboot-08-web-restfulcrud.iml" filepath="$PROJECT_DIR$/springboot-08-web-restfulcrud/springboot-08-web-restfulcrud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-09-servletcontainer/springboot-09-servletcontainer.iml" filepath="$PROJECT_DIR$/springboot-09-servletcontainer/springboot-09-servletcontainer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-10-data-jdbc/springboot-10-data-jdbc.iml" filepath="$PROJECT_DIR$/springboot-10-data-jdbc/springboot-10-data-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-11-data-mybatis/springboot-11-data-mybatis.iml" filepath="$PROJECT_DIR$/springboot-11-data-mybatis/springboot-11-data-mybatis.iml" />
     </modules>
   </component>
 </project>

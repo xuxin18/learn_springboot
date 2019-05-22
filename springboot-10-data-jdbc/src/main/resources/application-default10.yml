@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    # 使用 jdbc 的 mysql 协议来连接到 192.168.131.130:3306 的名为 testjdbc的数据库
+    url: jdbc:mysql://10.168.0.52:3306/testjdbc
+    # 数据库驱动
+    driver-class-name: com.mysql.jdbc.Driver
+    #自定义指定建表语句的位置，注意，每次启动项目的时候都会去数据库中执行sql（如果数据库不存在该表，则创建，存在则先删除再创建），所以一般第一次启动后，后面就把它给注释掉
+    schema:
+      - classpath: department.sql
+    
