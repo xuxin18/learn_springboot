@@ -7,27 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Springboot09ServletcontainerApplicationTests {
+public class Springboot12DataJpaApplicationTests {
 
 	@Test
 	public void contextLoads() {
-	}
-
-}
-
-class Car{
-
-
-	public Car() {
-		System.out.println("Car's Constructor..");
-	}
-
-	public void init(){
-		System.out.println("Car's Init...");
-	}
-
-	public void destory(){
-		System.out.println("Car's Destroy...");
 	}
 
 }

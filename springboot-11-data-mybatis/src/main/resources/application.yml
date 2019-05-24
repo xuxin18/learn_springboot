@@ -33,4 +33,9 @@ mybatis:
   # 指定sql映射文件位置
   mapper-locations: classpath:mybatis/mapper/*.xml
 
+# 将 mybatis 运行的 sql 输出到控制台
+logging:
+  level:
+    early_bird: debug
+
 
