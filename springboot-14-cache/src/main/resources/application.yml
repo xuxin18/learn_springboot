@@ -1,0 +1,28 @@
+# \u542F\u52A8\u9879\u76EE\u65F6\u5F00\u542F\u81EA\u52A8\u914D\u7F6E\u62A5\u544A
+debug: true
+
+# \u6570\u636E\u6E90\u76F8\u5173\u914D\u7F6E
+spring:
+  # \u6307\u5B9A redis\u4E3B\u673A\u5730\u5740\uFF0C\u5F00\u542F redis\u914D\u7F6E
+  redis:
+    host: 10.168.0.52
+  datasource:
+#   \u6570\u636E\u6E90\u57FA\u672C\u914D\u7F6E
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.168.0.52:3306/testcache
+#    schema:
+#      - classpath:sql/springboot_cache.sql
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+# \u5C06 mybatis \u8FD0\u884C\u7684 sql \u8F93\u51FA\u5230\u63A7\u5236\u53F0
+logging:
+  level:
+    early_bird: debug
+
+

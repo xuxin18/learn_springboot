@@ -25,6 +25,7 @@
         <module name="springboot-11-data-mybatis" />
         <module name="springboot-12-data-jpa" />
         <module name="springboot-13-main" />
+        <module name="springboot-14-cache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,6 +46,7 @@
       <module name="springboot-11-data-mybatis" target="1.8" />
       <module name="springboot-12-data-jpa" target="1.8" />
       <module name="springboot-13-main" target="1.8" />
+      <module name="springboot-14-cache" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

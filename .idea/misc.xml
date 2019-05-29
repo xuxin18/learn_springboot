@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/springboot-11-data-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-12-data-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-13-main/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-14-cache/pom.xml" />
       </list>
     </option>
   </component>
