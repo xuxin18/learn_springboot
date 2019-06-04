@@ -1,0 +1,13 @@
+
+spring:
+  # \u5F53\u4F7F\u7528jest \u4E0E es \u4EA4\u4E92\u65F6\uFF0C\u9700\u8981\u914D\u7F6E uris
+  elasticsearch:
+    jest:
+      uris: http://10.168.0.52:9200/
+  # \u5F53\u4F7F\u7528 springdata elasticsearch \u4E0E es \u4EA4\u4E92\u65F6\uFF0C\u9700\u8981\u914D\u7F6E\u8282\u70B9\u4FE1\u606F \u548C \u8282\u70B9\u540D
+  data:
+    elasticsearch:
+      #  docker\u4E3B\u673A\u5730\u5740:9300
+      cluster-nodes: 10.168.0.52:9301
+      # \u53EF\u4EE5\u5728 docker\u4E3B\u673A\u5730\u5740:9200 \u67E5\u770B
+      cluster-name: elasticsearch

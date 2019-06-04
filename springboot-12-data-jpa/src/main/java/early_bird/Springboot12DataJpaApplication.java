@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 		Repository：
 			RevisionRepository：基于乐观锁机制的接口
 			CrudRepository：含有基本CRUD功能的接口
-			PagingAndSortingRepository：基本CRUD 及分页
+				PagingAndSortingRepository：基本CRUD 及分页
 */
 @SpringBootApplication
 public class Springboot12DataJpaApplication {

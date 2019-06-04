@@ -73,4 +73,16 @@ public class Springboot14CacheApplicationTests {
 		System.out.println(emp);
 	}
 
+	@Test
+	public void test4(){
+		System.out.println(rup(2));
+		System.out.println(rup(3));
+	}
+
+	private static int rup(int number){
+		return number >= (1 << 30)
+				? (1 << 30)
+				: (number > 1)? Integer.highestOneBit((number-1)<<1):1;
+	}
+
 }

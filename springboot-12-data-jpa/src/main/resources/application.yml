@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
-      # \u66F4\u65B0\u6216\u8005\u521B\u5EFA\u6570\u636E\u5E93\u8868\u7ED3\u6784
+      # 更新或者创建数据库表结构
       ddl-auto: update
-    # \u5728\u63A7\u5236\u53F0\u663E\u793Asql
+    # 在控制台显示sql
     show-sql: true

@@ -26,27 +26,31 @@
         <module name="springboot-12-data-jpa" />
         <module name="springboot-13-main" />
         <module name="springboot-14-cache" />
+        <module name="springboot-15-rabbitmq" />
+        <module name="springboot-16-elasticsearch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="learn_springboot" target="1.8" />
       <module name="spring-boot-02-helloworld-quick" target="1.8" />
-      <module name="springboot-01-helloworld" target="1.8" />
-      <module name="springboot-02-helloworld-quick" target="1.8" />
-      <module name="springboot-03-config" target="1.8" />
-      <module name="springboot-04-autoconfig" target="1.8" />
-      <module name="springboot-05-logging" target="1.8" />
+      <module name="springboot-01-helloworld" target="1.6" />
+      <module name="springboot-02-helloworld-quick" target="1.6" />
+      <module name="springboot-03-config" target="1.6" />
+      <module name="springboot-04-autoconfig" target="1.6" />
+      <module name="springboot-05-logging" target="1.6" />
       <module name="springboot-05-web-jsp" target="1.8" />
-      <module name="springboot-06-web-externaltomcat" target="1.8" />
-      <module name="springboot-06-web-jsp" target="1.8" />
-      <module name="springboot-07-web-autoconfig" target="1.8" />
-      <module name="springboot-08-web-restfulcrud" target="1.8" />
-      <module name="springboot-09-servletcontainer" target="1.8" />
-      <module name="springboot-10-data-jdbc" target="1.8" />
-      <module name="springboot-11-data-mybatis" target="1.8" />
-      <module name="springboot-12-data-jpa" target="1.8" />
-      <module name="springboot-13-main" target="1.8" />
-      <module name="springboot-14-cache" target="1.8" />
+      <module name="springboot-06-web-externaltomcat" target="1.6" />
+      <module name="springboot-06-web-jsp" target="1.6" />
+      <module name="springboot-07-web-autoconfig" target="1.6" />
+      <module name="springboot-08-web-restfulcrud" target="1.6" />
+      <module name="springboot-09-servletcontainer" target="1.6" />
+      <module name="springboot-10-data-jdbc" target="1.6" />
+      <module name="springboot-11-data-mybatis" target="1.6" />
+      <module name="springboot-12-data-jpa" target="1.6" />
+      <module name="springboot-13-main" target="1.6" />
+      <module name="springboot-14-cache" target="1.6" />
+      <module name="springboot-15-rabbitmq" target="1.6" />
+      <module name="springboot-16-elasticsearch" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

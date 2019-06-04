@@ -31,6 +31,14 @@ import org.springframework.cache.annotation.EnableCaching;
 	1.使用docker 安装redis
 	2.引入 redis 的 starter
 	3.配置redis
+	当整合 Redis 作为缓存是：
+		1.CacheManager 由 默认的 ConcurrentMapCacheManager 改为了 RedisCacheManager （详见 RedisCacheConfiguration）
+		2.RedisCacheManager 创建 RedisCache 来作为缓存组件
+		3.默认数据 k-v 都是 Object 时，利用 jdk的序列化来保存数据
+			RedisCacheManager 操作 redis 是默认 使用的是 RedisTemplate<Object, Object>
+				RedisTemplate<Object, Object> 的创建 详见 RedisConfiguration
+				而 RedisTemplate<Object, Object> 默认使用的序列化器就是 jdk的序列化器
+		所以如果我们需要指定 以json的格式来保存数据，可以通过定制 RedisCacheTemplate 方法是实现 （在 RedisCacheManager中指定使用 自己定制的 redisTemplate）
 
 */
 @MapperScan("early_bird.mapper")
