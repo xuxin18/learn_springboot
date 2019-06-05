@@ -19,6 +19,15 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-14-cache/springboot-14-cache.iml" filepath="$PROJECT_DIR$/springboot-14-cache/springboot-14-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-15-rabbitmq/springboot-15-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-15-rabbitmq/springboot-15-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-16-elasticsearch/springboot-16-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-16-elasticsearch/springboot-16-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-17-task/springboot-17-task.iml" filepath="$PROJECT_DIR$/springboot-17-task/springboot-17-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-18-security/springboot-18-security.iml" filepath="$PROJECT_DIR$/springboot-18-security/springboot-18-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-19-dubbo-consumer/springboot-19-dubbo-consumer.iml" filepath="$PROJECT_DIR$/springboot-19-dubbo-consumer/springboot-19-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-19-dubbo-provider/springboot-19-dubbo-provider.iml" filepath="$PROJECT_DIR$/springboot-19-dubbo-provider/springboot-19-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/springboot-20-springcloud-eureka-consumer.iml" filepath="$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/springboot-20-springcloud-eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/springboot-20-springcloud-eureka-provider.iml" filepath="$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/springboot-20-springcloud-eureka-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-server/springboot-20-springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/springboot-20-springcloud-eureka-server/springboot-20-springcloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-21-deploy/springboot-21-deploy.iml" filepath="$PROJECT_DIR$/springboot-21-deploy/springboot-21-deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-22-actuator/springboot-22-actuator.iml" filepath="$PROJECT_DIR$/springboot-22-actuator/springboot-22-actuator.iml" />
     </modules>
   </component>
 </project>

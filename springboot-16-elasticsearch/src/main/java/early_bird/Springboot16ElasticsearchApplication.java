@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 在docker中启动 elasticsearch
 	docker run -e ES_JAVA_OPTS="-Xms256m -Xmx256m" -d -p 9200:9200 -p 9300:9300 --name ES01 镜像id
 	启动成功后，在浏览器访问： docker主机所在的ip:9200 看能不能访问elasticsearch
+		在 ES 5.x 版本上述命令运行后，浏览器可以访问，ES6.x版本则不行
 	ps： -p 后面第一个 9200 是虚拟机端口，第二个 9200 是 docker 内部端口
 
 elasticsearch：是目前全文搜索引擎的首选，他可以快速的存储、搜索和分析海量数据。elasticsearch是一个分布式搜索服务，提供Restful API

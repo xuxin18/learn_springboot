@@ -18,6 +18,15 @@
     <file url="file://$PROJECT_DIR$/springboot-14-cache" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-15-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-16-elasticsearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-17-task" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-18-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-19-dubbo-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-19-dubbo-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-21-deploy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-22-actuator" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

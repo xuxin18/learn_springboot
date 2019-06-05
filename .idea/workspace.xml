@@ -7,22 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bbbe347-9d2f-42fb-bef8-f167039f16ce" name="Default" comment="备份">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/controller/DepartmentController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/service/DepartmentService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-14-cache/src/test/java/early_bird/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-15-rabbitmq/src/main/java/early_bird/bean/Book.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-15-rabbitmq/src/main/java/early_bird/config/MyAMQPConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-15-rabbitmq/src/main/java/early_bird/service/BookService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/bean/Article.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/bean/Book.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/repository/BookRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-12-data-jpa/src/main/java/early_bird/Springboot12DataJpaApplication.java" afterPath="$PROJECT_DIR$/springboot-12-data-jpa/src/main/java/early_bird/Springboot12DataJpaApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-12-data-jpa/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/springboot-12-data-jpa/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/Springboot14CacheApplication.java" afterPath="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/Springboot14CacheApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/config/MyRedisConfig.java" afterPath="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/config/MyRedisConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/mapper/DepartmentMapper.java" afterPath="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/mapper/DepartmentMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-14-cache/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/springboot-14-cache/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-14-cache/src/test/java/early_bird/Springboot14CacheApplicationTests.java" afterPath="$PROJECT_DIR$/springboot-14-cache/src/test/java/early_bird/Springboot14CacheApplicationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-17-task/src/main/java/early_bird/controller/AsyncController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-17-task/src/main/java/early_bird/service/AsyncService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-17-task/src/main/java/early_bird/service/ScheduledService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-19-dubbo-consumer/src/main/java/early_bird/service/TicketService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-19-dubbo-consumer/src/main/java/early_bird/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-19-dubbo-provider/src/main/java/early_bird/service/TicketService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-19-dubbo-provider/src/main/java/early_bird/service/TicketServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/src/main/java/early_bird/controller/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/src/main/java/early_bird/controller/TickerController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/src/main/java/early_bird/service/TicketService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-21-deploy/src/main/java/early_bird/controller/HelloController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-22-actuator/src/main/java/early_bird/health/MyHealthIndicator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/Springboot16ElasticsearchApplication.java" afterPath="$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/Springboot16ElasticsearchApplication.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,6 +42,15 @@
     <ignored path="$PROJECT_DIR$/springboot-14-cache/target/" />
     <ignored path="$PROJECT_DIR$/springboot-15-rabbitmq/target/" />
     <ignored path="$PROJECT_DIR$/springboot-16-elasticsearch/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-17-task/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-18-security/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-19-dubbo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-19-dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-20-springcloud-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-21-deploy/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-22-actuator/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,35 +76,35 @@
     <favorites_list name="learn_springboot" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Springboot16ElasticsearchApplicationTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-16-elasticsearch/src/test/java/early_bird/Springboot16ElasticsearchApplicationTests.java">
+    <leaf>
+      <file leaf-file-name="Springboot22ActuatorApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-22-actuator/src/main/java/early_bird/Springboot22ActuatorApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="30" column="72" lean-forward="true" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
+            <state relative-caret-position="154">
+              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyHealthIndicator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-22-actuator/src/main/java/early_bird/health/MyHealthIndicator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-16-elasticsearch/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/springboot-22-actuator/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/repository/BookRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -109,15 +115,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>postProcessAfterInitialization</find>
       <find>EmbeddedServletContainerCustomizerBeanPostProcessor</find>
       <find>getEnbedded</find>
       <find>getEmbeddedServletContainer</find>
@@ -147,6 +152,7 @@
       <find>Conver</find>
       <find>Converter</find>
       <find>@Post</find>
+      <find>@Proper</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,45 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-11-data-mybatis/src/main/resources/mybatis/mapper/EmployeeMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-11-data-mybatis/src/main/resources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/springboot-11-data-mybatis/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot-12-data-jpa/src/main/java/learn_springboot/springboot12datajpa/Springboot12DataJpaApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-12-data-jpa/src/main/java/early_bird/springboot12datajpa/Springboot12DataJpaApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-12-data-jpa/src/test/java/early_bird/Springboot12DataJpaApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot-12-data-jpa/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-12-data-jpa/src/main/java/early_bird/entity/User.java" />
-        <option value="$PROJECT_DIR$/springboot-12-data-jpa/src/main/java/early_bird/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/springboot-12-data-jpa/src/main/java/early_bird/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/springboot-13-main/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-13-main/src/main/java/early_bird/runner/HelloApplicationRunner.java" />
-        <option value="$PROJECT_DIR$/springboot-13-main/src/main/java/early_bird/runner/HelloCommandLineRunner.java" />
-        <option value="$PROJECT_DIR$/springboot-13-main/src/main/java/early_bird/initializer/HelloApplicationContextInitailizer.java" />
-        <option value="$PROJECT_DIR$/springboot-13-main/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/springboot-13-main/src/main/java/early_bird/listener/HelloSpringApplicationRunListener.java" />
-        <option value="$PROJECT_DIR$/springboot-13-main/src/main/java/early_bird/initializer/HelloApplicationContextInitializer.java" />
-        <option value="$PROJECT_DIR$/springboot-13-main/src/main/resources/application-druid.yml" />
-        <option value="$PROJECT_DIR$/springboot-13-main/src/main/resources/application-default10.yml" />
-        <option value="$PROJECT_DIR$/springboot-09-servletcontainer/src/test/java/early_bird/Springboot09ServletcontainerApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot-13-main/src/main/java/early_bird/Springboot13MainApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/bean/Employee.java" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/config/MyCacheConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/mapper/EmployeeMapper.java" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/service/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/test/java/early_bird/Springboot14CacheApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/test/java/early_bird/Main.java" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/Springboot14CacheApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/mapper/DepartmentMapper.java" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/controller/DepartmentController.java" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/service/DepartmentService.java" />
-        <option value="$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/config/MyRedisConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-12-data-jpa/src/main/java/early_bird/Springboot12DataJpaApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-15-rabbitmq/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-15-rabbitmq/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot-15-rabbitmq/src/main/java/early_bird/config/MyAMQPConfig.java" />
         <option value="$PROJECT_DIR$/springboot-15-rabbitmq/src/main/java/early_bird/bean/Book.java" />
         <option value="$PROJECT_DIR$/springboot-15-rabbitmq/src/main/java/early_bird/service/BookService.java" />
         <option value="$PROJECT_DIR$/springboot-15-rabbitmq/src/test/java/early_bird/Springboot15RabbitmqApplicationTests.java" />
@@ -210,11 +177,50 @@
         <option value="$PROJECT_DIR$/springboot-15-rabbitmq/src/main/java/early_bird/Springboot15RabbitmqApplication.java" />
         <option value="$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/bean/Article.java" />
         <option value="$PROJECT_DIR$/springboot-16-elasticsearch/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/Springboot16ElasticsearchApplication.java" />
         <option value="$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/bean/Book.java" />
         <option value="$PROJECT_DIR$/springboot-16-elasticsearch/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/springboot-16-elasticsearch/src/test/java/early_bird/Springboot16ElasticsearchApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/Springboot16ElasticsearchApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-17-task/src/main/java/early_bird/controller/AsyncController.java" />
+        <option value="$PROJECT_DIR$/springboot-17-task/src/main/java/early_bird/service/AsyncService.java" />
+        <option value="$PROJECT_DIR$/springboot-17-task/src/main/java/early_bird/service/ScheduledService.java" />
+        <option value="$PROJECT_DIR$/springboot-17-task/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-17-task/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-17-task/src/test/java/early_bird/Springboot17TaskApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot-17-task/src/main/java/early_bird/Springboot17TaskApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-19-dubbo-provider/src/main/java/early_bird/service/TicketService.java" />
+        <option value="$PROJECT_DIR$/springboot-19-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-19-dubbo-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-19-dubbo-consumer/src/main/java/early_bird/Springboot19DubboConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-19-dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-19-dubbo-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-19-dubbo-provider/src/main/java/early_bird/service/TicketServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-19-dubbo-consumer/src/main/java/early_bird/service/UserService.java" />
+        <option value="$PROJECT_DIR$/springboot-19-dubbo-consumer/src/test/java/early_bird/Springboot19DubboConsumerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot-19-dubbo-provider/src/main/java/early_bird/Springboot19DubboProviderApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/src/main/java/early_bird/TicketService.java" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/src/main/java/early_bird/controller/TickerController.java" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/src/main/java/early_bird/service/TicketService.java" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/src/main/java/early_bird/Springboot20SpringcloudEurekaProviderApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/src/main/java/early_bird/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/src/main/java/early_bird/Springboot20SpringcloudEurekaConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-21-deploy/src/main/resources/templates/hello.html" />
+        <option value="$PROJECT_DIR$/springboot-21-deploy/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-21-deploy/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-21-deploy/src/main/java/early_bird/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/springboot-21-deploy/src/main/java/early_bird/Springboot21DeployApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-server/src/main/java/early_bird/Springboot20SpringcloudEurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-22-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-22-actuator/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-22-actuator/src/main/java/early_bird/Springboot22ActuatorApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-22-actuator/src/main/java/early_bird/health/MyHealthIndicator.java" />
       </list>
     </option>
   </component>
@@ -260,11 +266,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-16-elasticsearch" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="springboot-20-springcloud-eureka-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-16-elasticsearch" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="springboot-20-springcloud-eureka-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-20-springcloud-eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-20-springcloud-eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -275,10 +290,10 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="536" />
-    <option name="y" value="241" />
-    <option name="width" value="1443" />
-    <option name="height" value="973" />
+    <option name="x" value="747" />
+    <option name="y" value="76" />
+    <option name="width" value="1031" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -596,34 +611,68 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-16-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-20-springcloud-eureka-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-16-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-20-springcloud-eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-16-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-20-springcloud-eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-16-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-20-springcloud-eureka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-16-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-20-springcloud-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="early_bird" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-22-actuator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-22-actuator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-22-actuator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-22-actuator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-22-actuator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -631,130 +680,84 @@
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-16-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-22-actuator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="early_bird" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="health" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-16-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="early_bird" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-16-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-22-actuator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-16-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-16-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-16-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="early_bird" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.14.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-1.5.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.14.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.14.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-1.5.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.14.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.14.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-1.5.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.14.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.14.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-1.5.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.14.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.14.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-1.5.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.14.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.14.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-1.5.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.14.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.14.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-1.5.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -775,18 +778,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\learn_springboot\springboot-08-web-restfulcrud\src\main\resources\templates\error" />
-      <recent name="F:\learn_springboot\springboot-08-web-restfulcrud\src\main\resources\templates\emp" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="early_bird" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="early_bird.mapper" />
-      <recent name="early_bird.runner" />
-      <recent name="early_bird" />
-      <recent name="early_bird.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\learn_springboot\springboot-14-cache\src\main\java\early_bird\bean" />
@@ -794,6 +787,17 @@
       <recent name="F:\learn_springboot\springboot-13-main\src\main\resources" />
       <recent name="F:\learn_springboot\springboot-11-data-mybatis\src\main\resources\mybatis" />
       <recent name="F:\learn_springboot\springboot-11-data-mybatis\src\main\resources\mybatis\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="early_bird" />
+      <recent name="early_bird.service" />
+      <recent name="early_bird.mapper" />
+      <recent name="early_bird.runner" />
+      <recent name="early_bird.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\learn_springboot\springboot-08-web-restfulcrud\src\main\resources\templates\error" />
+      <recent name="F:\learn_springboot\springboot-08-web-restfulcrud\src\main\resources\templates\emp" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -938,7 +942,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Springboot16ElasticsearchApplication">
+  <component name="RunManager" selected="Application.Springboot22ActuatorApplication">
     <configuration name="HelloWorldMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="early_bird.HelloWorldMainApplication" />
@@ -1036,136 +1040,130 @@
       <module name="springboot-15-rabbitmq" />
       <envs />
     </configuration>
-    <configuration name="Springboot15RabbitmqApplicationTests.createExchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="early_bird.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-15-rabbitmq" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="early_bird" />
-      <option name="MAIN_CLASS_NAME" value="early_bird.Springboot15RabbitmqApplicationTests" />
-      <option name="METHOD_NAME" value="createExchange" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="Springboot15RabbitmqApplicationTests.send1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="early_bird.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-15-rabbitmq" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="early_bird" />
-      <option name="MAIN_CLASS_NAME" value="early_bird.Springboot15RabbitmqApplicationTests" />
-      <option name="METHOD_NAME" value="send1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="Springboot15RabbitmqApplicationTests.send2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="early_bird.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-15-rabbitmq" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="early_bird" />
-      <option name="MAIN_CLASS_NAME" value="early_bird.Springboot15RabbitmqApplicationTests" />
-      <option name="METHOD_NAME" value="send2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="Springboot16ElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="early_bird.Springboot16ElasticsearchApplication" />
       <module name="springboot-16-elasticsearch" />
       <envs />
     </configuration>
-    <configuration name="Springboot16ElasticsearchApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="early_bird.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-16-elasticsearch" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="early_bird" />
-      <option name="MAIN_CLASS_NAME" value="early_bird.Springboot16ElasticsearchApplicationTests" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+    <configuration name="Springboot17TaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="early_bird.Springboot17TaskApplication" />
+      <module name="springboot-17-task" />
       <envs />
-      <patterns />
     </configuration>
-    <configuration name="Springboot16ElasticsearchApplicationTests.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Springboot18SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="early_bird.Springboot18SecurityApplication" />
+      <module name="springboot-18-security" />
+      <envs />
+    </configuration>
+    <configuration name="Springboot19DubboConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="early_bird.Springboot19DubboConsumerApplication" />
+      <module name="springboot-19-dubbo-consumer" />
+      <envs />
+    </configuration>
+    <configuration name="Springboot19DubboProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="early_bird.Springboot19DubboProviderApplication" />
+      <module name="springboot-19-dubbo-provider" />
+      <envs />
+    </configuration>
+    <configuration name="Springboot20SpringcloudEurekaConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="early_bird.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="springboot-16-elasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="early_bird.Springboot20SpringcloudEurekaConsumerApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="early_bird" />
-      <option name="MAIN_CLASS_NAME" value="early_bird.Springboot16ElasticsearchApplicationTests" />
-      <option name="METHOD_NAME" value="testSearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="springboot-20-springcloud-eureka-consumer" />
       <envs />
-      <patterns />
+    </configuration>
+    <configuration name="Springboot20SpringcloudEurekaProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="early_bird.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="early_bird.Springboot20SpringcloudEurekaProviderApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springboot-20-springcloud-eureka-provider" />
+      <envs />
+    </configuration>
+    <configuration name="Springboot20SpringcloudEurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="early_bird.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="early_bird.Springboot20SpringcloudEurekaServerApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springboot-20-springcloud-eureka-server" />
+      <envs />
+    </configuration>
+    <configuration name="Springboot21DeployApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="early_bird.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="early_bird.Springboot21DeployApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springboot-21-deploy" />
+      <envs />
+    </configuration>
+    <configuration name="Springboot22ActuatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="early_bird.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="early_bird.Springboot22ActuatorApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springboot-22-actuator" />
+      <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -1353,7 +1351,7 @@
         </option>
       </method>
     </configuration>
-    <list size="23">
+    <list size="27">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.HelloWorldMainApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringBoot02HelloworldQuickApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.Springboot03ConfigApplication" />
@@ -1370,21 +1368,25 @@
       <item index="13" class="java.lang.String" itemvalue="Spring Boot.Springboot13MainApplication" />
       <item index="14" class="java.lang.String" itemvalue="Spring Boot.Springboot14CacheApplication" />
       <item index="15" class="java.lang.String" itemvalue="Spring Boot.Springboot15RabbitmqApplication" />
-      <item index="16" class="java.lang.String" itemvalue="JUnit.Springboot15RabbitmqApplicationTests.send2" />
-      <item index="17" class="java.lang.String" itemvalue="JUnit.Springboot15RabbitmqApplicationTests.send1" />
-      <item index="18" class="java.lang.String" itemvalue="JUnit.Springboot15RabbitmqApplicationTests.createExchange" />
-      <item index="19" class="java.lang.String" itemvalue="Spring Boot.Springboot16ElasticsearchApplication" />
-      <item index="20" class="java.lang.String" itemvalue="Spring Boot.Springboot07WebAutoconfigApplication" />
-      <item index="21" class="java.lang.String" itemvalue="JUnit.Springboot16ElasticsearchApplicationTests.test1" />
-      <item index="22" class="java.lang.String" itemvalue="JUnit.Springboot16ElasticsearchApplicationTests.testSearch" />
+      <item index="16" class="java.lang.String" itemvalue="Spring Boot.Springboot16ElasticsearchApplication" />
+      <item index="17" class="java.lang.String" itemvalue="Spring Boot.Springboot07WebAutoconfigApplication" />
+      <item index="18" class="java.lang.String" itemvalue="Spring Boot.Springboot17TaskApplication" />
+      <item index="19" class="java.lang.String" itemvalue="Spring Boot.Springboot18SecurityApplication" />
+      <item index="20" class="java.lang.String" itemvalue="Spring Boot.Springboot19DubboProviderApplication" />
+      <item index="21" class="java.lang.String" itemvalue="Spring Boot.Springboot19DubboConsumerApplication" />
+      <item index="22" class="java.lang.String" itemvalue="Application.Springboot20SpringcloudEurekaServerApplication" />
+      <item index="23" class="java.lang.String" itemvalue="Application.Springboot20SpringcloudEurekaProviderApplication" />
+      <item index="24" class="java.lang.String" itemvalue="Application.Springboot20SpringcloudEurekaConsumerApplication" />
+      <item index="25" class="java.lang.String" itemvalue="Application.Springboot21DeployApplication" />
+      <item index="26" class="java.lang.String" itemvalue="Application.Springboot22ActuatorApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Springboot16ElasticsearchApplicationTests.testSearch" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Springboot16ElasticsearchApplicationTests.test1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Springboot15RabbitmqApplicationTests.createExchange" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Springboot15RabbitmqApplicationTests.send1" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Springboot15RabbitmqApplicationTests.send2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Springboot22ActuatorApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Springboot21DeployApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Springboot20SpringcloudEurekaConsumerApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Springboot20SpringcloudEurekaServerApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Springboot20SpringcloudEurekaProviderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1420,29 +1422,12 @@
       <workItem from="1558574341356" duration="2610000" />
       <workItem from="1558577104505" duration="56475000" />
       <workItem from="1559043604784" duration="18659000" />
-      <workItem from="1559552762302" duration="31710000" />
+      <workItem from="1559552762302" duration="32923000" />
+      <workItem from="1559698271116" duration="25429000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Springboot15RabbitmqApplicationTests_createExchange - 2019.06.04 at 10h 39m 29s.xml">
-      <configuration name="Springboot15RabbitmqApplicationTests.createExchange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Springboot15RabbitmqApplicationTests_createExchange - 2019.06.04 at 10h 39m 47s.xml">
-      <configuration name="Springboot15RabbitmqApplicationTests.createExchange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Springboot15RabbitmqApplicationTests_createExchange - 2019.06.04 at 10h 47m 53s.xml">
-      <configuration name="Springboot15RabbitmqApplicationTests.createExchange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Springboot15RabbitmqApplicationTests_createExchange - 2019.06.04 at 10h 50m 12s.xml">
-      <configuration name="Springboot15RabbitmqApplicationTests.createExchange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Springboot15RabbitmqApplicationTests_send1 - 2019.06.04 at 10h 09m 39s.xml">
-      <configuration name="Springboot15RabbitmqApplicationTests.send1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Springboot15RabbitmqApplicationTests_send2 - 2019.06.04 at 09h 55m 58s.xml">
-      <configuration name="Springboot15RabbitmqApplicationTests.send2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Springboot15RabbitmqApplicationTests_send2 - 2019.06.04 at 09h 56m 47s.xml">
       <configuration name="Springboot15RabbitmqApplicationTests.send2" configurationId="JUnit" />
     </history-entry>
@@ -1455,9 +1440,27 @@
     <history-entry file="Springboot16ElasticsearchApplicationTests_testSearch - 2019.06.04 at 19h 00m 19s.xml">
       <configuration name="Springboot16ElasticsearchApplicationTests.testSearch" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Springboot17TaskApplicationTests_sendSimpleMail - 2019.06.05 at 10h 38m 30s.xml">
+      <configuration name="Springboot17TaskApplicationTests.sendSimpleMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Springboot17TaskApplicationTests_sendSimpleMail - 2019.06.05 at 10h 41m 21s.xml">
+      <configuration name="Springboot17TaskApplicationTests.sendSimpleMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Springboot17TaskApplicationTests_sendSimpleMail - 2019.06.05 at 10h 42m 37s.xml">
+      <configuration name="Springboot17TaskApplicationTests.sendSimpleMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Springboot17TaskApplicationTests_sendSimpleMail - 2019.06.05 at 10h 42m 54s.xml">
+      <configuration name="Springboot17TaskApplicationTests.sendSimpleMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Springboot19DubboConsumerApplicationTests_contextLoads - 2019.06.05 at 15h 17m 31s.xml">
+      <configuration name="Springboot19DubboConsumerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Springboot19DubboConsumerApplicationTests_contextLoads - 2019.06.05 at 15h 19m 47s.xml">
+      <configuration name="Springboot19DubboConsumerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362450000" />
+    <option name="totallyTimeSpent" value="389092000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1469,33 +1472,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="536" y="241" width="1443" height="973" extended-state="0" />
+    <frame x="747" y="76" width="1031" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41196778" sideWeight="0.5055012" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2013809" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4866233" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20721272" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27765727" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28681177" sideWeight="0.48533008" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.80985916" sideWeight="0.48533008" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32336017" sideWeight="0.4951024" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48347825" sideWeight="0.4944988" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32796317" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50852275" sideWeight="0.4944988" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32796317" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4814815" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="MyBatis Sql Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5293441" sideWeight="0.48899755" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2263196" sideWeight="0.49056605" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4814815" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6107106" sideWeight="0.49056605" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43398532" sideWeight="0.509434" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7081545" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1507,6 +1509,7 @@
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5293441" sideWeight="0.51466995" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6438152" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27765727" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3739931" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" x="451" y="663" width="599" height="248" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27811736" sideWeight="0.509434" order="2" side_tool="true" content_ui="tabs" />
@@ -1552,395 +1555,442 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>511</line>
           <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>514</line>
           <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>517</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>521</line>
           <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>524</line>
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>527</line>
           <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>530</line>
           <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>536</line>
           <properties />
           <option name="timeStamp" value="78" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>539</line>
           <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>542</line>
           <properties />
           <option name="timeStamp" value="80" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>545</line>
           <properties />
           <option name="timeStamp" value="81" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.10.RELEASE/spring-boot-1.5.10.RELEASE-sources.jar!/org/springframework/boot/context/embedded/EmbeddedServletContainerCustomizerBeanPostProcessor.java</url>
           <line>72</line>
           <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.java</url>
           <line>41</line>
           <properties />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.java</url>
           <line>55</line>
           <properties />
           <option name="timeStamp" value="85" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java</url>
           <line>182</line>
           <properties />
           <option name="timeStamp" value="86" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceBuilder.java</url>
           <line>68</line>
           <properties />
           <option name="timeStamp" value="87" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.java</url>
           <line>75</line>
           <properties />
           <option name="timeStamp" value="89" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.java</url>
           <line>87</line>
           <properties />
           <option name="timeStamp" value="90" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceInitializer.java</url>
           <line>64</line>
           <properties />
           <option name="timeStamp" value="91" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceInitializer.java</url>
           <line>70</line>
           <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.14.RELEASE/spring-jdbc-4.3.14.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java</url>
           <line>513</line>
           <properties />
           <option name="timeStamp" value="95" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.java</url>
           <line>309</line>
           <properties />
           <option name="timeStamp" value="96" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.java</url>
           <line>284</line>
           <properties />
           <option name="timeStamp" value="97" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/ResourceProperties.java</url>
           <line>102</line>
           <properties />
           <option name="timeStamp" value="106" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/springboot-09-servletcontainer/src/main/java/early_bird/config/MyMvcConfig.java</url>
           <line>31</line>
           <properties />
           <option name="timeStamp" value="109" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>533</line>
           <properties />
           <option name="timeStamp" value="110" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.10.RELEASE/spring-boot-1.5.10.RELEASE-sources.jar!/org/springframework/boot/context/embedded/EmbeddedWebApplicationContext.java</url>
           <line>158</line>
           <properties />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.10.RELEASE/spring-boot-1.5.10.RELEASE-sources.jar!/org/springframework/boot/context/embedded/EmbeddedWebApplicationContext.java</url>
           <line>212</line>
           <properties />
           <option name="timeStamp" value="113" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/springboot-13-main/src/main/java/early_bird/Springboot13MainApplication.java</url>
           <line>198</line>
           <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.10.RELEASE/spring-boot-1.5.10.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
           <line>300</line>
           <properties />
           <option name="timeStamp" value="125" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.10.RELEASE/spring-boot-1.5.10.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
           <line>305</line>
           <properties />
           <option name="timeStamp" value="127" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/controller/EmployeeController.java</url>
           <line>24</line>
           <properties />
           <option name="timeStamp" value="129" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/springboot-14-cache/src/test/java/early_bird/Springboot14CacheApplicationTests.java</url>
           <line>54</line>
           <properties />
           <option name="timeStamp" value="130" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-17-task/src/test/java/early_bird/Springboot17TaskApplicationTests.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="132" />
+      <option name="time" value="138" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.10.RELEASE/spring-data-jpa-1.11.10.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.1.1.RELEASE/spring-cloud-netflix-eureka-server-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EnableEurekaServer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        <state relative-caret-position="153">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
+    <entry file="file://$PROJECT_DIR$/springboot-19-dubbo-provider/src/main/java/early_bird/service/TicketService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="129" lean-forward="false" selection-start-line="7" selection-start-column="129" selection-end-line="7" selection-end-column="129" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/src/main/java/early_bird/TicketService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-amqp/2.1.5.RELEASE/spring-boot-starter-amqp-2.1.5.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/springboot-19-dubbo-provider/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="64" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/bean/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/bean/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-13-main/src/main/resources/application-druid.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-13-main/src/main/resources/application-default10.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-13-main/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-15-rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-14-cache/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/Springboot14CacheApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-15-rabbitmq/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.java">
+    <entry file="file://$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/service/DepartmentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="259" column="72" lean-forward="true" selection-start-line="259" selection-start-column="72" selection-end-line="259" selection-end-column="72" />
-          <folding>
-            <element signature="e#6637#6638#0" expanded="false" />
-            <element signature="e#6707#6708#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.6.RELEASE/spring-amqp-1.7.6.RELEASE.jar!/org/springframework/amqp/core/Message.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="-235">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/requests/FilterRequest.java">
+    <entry file="file://$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/service/EmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="122">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/1.7.6.RELEASE/spring-rabbit-1.7.6.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.6.RELEASE/spring-amqp-1.7.6.RELEASE-sources.jar!/org/springframework/amqp/core/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.6.RELEASE/spring-amqp-1.7.6.RELEASE-sources.jar!/org/springframework/amqp/core/MessageProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/1.7.6.RELEASE/spring-rabbit-1.7.6.RELEASE-sources.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="708" column="16" lean-forward="false" selection-start-line="708" selection-start-column="16" selection-end-line="708" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.6.RELEASE/spring-amqp-1.7.6.RELEASE-sources.jar!/org/springframework/amqp/support/converter/AbstractMessageConverter.java">
+    <entry file="file://$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/mapper/DepartmentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/mapper/EmployeeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="168" column="44" lean-forward="false" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="44" />
+        <state relative-caret-position="173">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-15-rabbitmq/src/main/java/early_bird/bean/Book.java">
+    <entry file="file://$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="-81">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.6.RELEASE/spring-amqp-1.7.6.RELEASE-sources.jar!/org/springframework/amqp/support/converter/MessageConverter.java">
+    <entry file="file://$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/controller/DepartmentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        <state relative-caret-position="204">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-13-main/src/main/java/early_bird/Springboot13MainApplication.java">
+    <entry file="file://$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/config/MyCacheConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="189" column="5" lean-forward="true" selection-start-line="189" selection-start-column="5" selection-end-line="189" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.6.RELEASE/spring-amqp-1.7.6.RELEASE-sources.jar!/org/springframework/amqp/core/Binding.java">
+    <entry file="file://$PROJECT_DIR$/springboot-14-cache/src/main/java/early_bird/config/MyRedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="48" column="54" lean-forward="false" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="54" />
+        <state relative-caret-position="204">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-15-rabbitmq/src/test/java/early_bird/Springboot15RabbitmqApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/src/main/java/early_bird/controller/TickerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-          <folding>
-            <element signature="e#1711#1712#0" expanded="false" />
-            <element signature="e#1793#1794#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-15-rabbitmq/src/main/java/early_bird/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="31" column="55" lean-forward="false" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+        <state relative-caret-position="238">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-15-rabbitmq/src/main/java/early_bird/config/MyAMQPConfig.java">
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/src/main/java/early_bird/service/TicketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/src/main/java/early_bird/Springboot20SpringcloudEurekaProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <element signature="e#686#687#0" expanded="false" />
-            <element signature="e#743#744#0" expanded="false" />
-          </folding>
+          <caret line="18" column="64" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-15-rabbitmq/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="153">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/src/main/java/early_bird/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1952,7 +2002,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-11-data-mybatis/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/src/main/java/early_bird/Springboot20SpringcloudEurekaConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-01-helloworld/src/main/java/early_bird/HelloWorldMainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-01-helloworld/src/main/java/early_bird/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-06-web-jsp/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1960,361 +2066,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaProperties.java">
+    <entry file="file://$PROJECT_DIR$/springboot-06-web-jsp/src/main/java/early_bird/Springboot06WebJspApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="168" column="20" lean-forward="false" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="20" />
-          <folding>
-            <element signature="e#4657#4658#0" expanded="false" />
-            <element signature="e#4688#4689#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-12-data-jpa/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="193">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-12-data-jpa/src/test/java/early_bird/Springboot12DataJpaApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/springboot-06-web-jsp/src/main/java/early_bird/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="177">
+          <caret line="76" column="13" lean-forward="false" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-12-data-jpa/src/main/java/early_bird/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/springboot-02-helloworld-quick/src/main/java/early_bird/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-12-data-jpa/src/main/java/early_bird/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/springboot-02-helloworld-quick/src/main/java/early_bird/SpringBoot02HelloworldQuickApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="193">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-12-data-jpa/src/main/java/early_bird/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/springboot-21-deploy/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-12-data-jpa/src/main/java/early_bird/Springboot12DataJpaApplication.java">
+    <entry file="file://$PROJECT_DIR$/springboot-21-deploy/src/main/resources/templates/hello.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-15-rabbitmq/src/main/java/early_bird/Springboot15RabbitmqApplication.java">
+    <entry file="file://$PROJECT_DIR$/springboot-21-deploy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="82" column="50" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+        <state relative-caret-position="255">
+          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-web-restfulcrud/src/main/java/early_bird/dao/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-web-restfulcrud/src/main/java/early_bird/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/elasticsearch/jest/JestProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="60" />
-          <folding>
-            <element signature="e#1151#1159#0" expanded="false" />
-            <element signature="e#1714#1715#0" expanded="false" />
-            <element signature="e#1737#1738#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/elasticsearch/jest/JestAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="73" column="36" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://SpringLocalModels/early_bird.Springboot16ElasticsearchApplication">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>SpringLocalModels</ID>
-          <OriginalElement>early_bird.Springboot16ElasticsearchApplication</OriginalElement>
-          <nodes>
-            <node x="" y="">early_bird.Springboot16ElasticsearchApplication</node>
-            <node x="" y="">org.springframework.boot.autoconfigure.SpringBootApplication</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="239.0" y="10.5" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Show filesets as groups</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MODULES/mdl-springboot-16-elasticsearch">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement>mdl-springboot-16-elasticsearch</OriginalElement>
-          <nodes>
-            <node x="" y="">mdl-springboot-16-elasticsearch</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="126.0" y="15.5" />
-          <SelectedNodes />
-          <Categories />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://SpringLocalModels/module=springboot-16-elasticsearch">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>SpringLocalModels</ID>
-          <OriginalElement>module=springboot-16-elasticsearch</OriginalElement>
-          <nodes>
-            <node x="" y="">module=springboot-16-elasticsearch</node>
-            <node x="" y="">fileset=springboot-16-elasticsearch/Springboot16ElasticsearchApplication</node>
-            <node x="" y="">early_bird.Springboot16ElasticsearchApplication</node>
-            <node x="" y="">org.springframework.boot.autoconfigure.SpringBootApplication</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8998161764705882" x="534.0" y="10.5" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Show filesets as groups</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="731" column="6" lean-forward="false" selection-start-line="731" selection-start-column="6" selection-end-line="731" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/learn_springboot:springboot-16-elasticsearch:0.0.1-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>learn_springboot:springboot-16-elasticsearch:0.0.1-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">learn_springboot:springboot-16-elasticsearch:0.0.1-SNAPSHOT</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.springframework:spring-context:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.springframework:spring-tx:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/commons-lang:commons-lang:jar:2.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/joda-time:joda-time:jar:2.9.9</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-core:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-backward-codecs:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-analyzers-common:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-queries:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-memory:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-highlighter:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-queryparser:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-queryparser:jar:5.5.4/org.apache.lucene:lucene-sandbox:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-suggest:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-suggest:jar:5.5.4/org.apache.lucene:lucene-misc:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-join:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-join:jar:5.5.4/org.apache.lucene:lucene-grouping:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-spatial:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-spatial:jar:5.5.4/org.apache.lucene:lucene-spatial3d:jar:5.5.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-spatial:jar:5.5.4/com.spatial4j:spatial4j:jar:0.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.google.guava:guava:jar:18.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.elasticsearch:securesm:jar:1.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.carrotsearch:hppc:jar:0.7.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.10</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.10</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.10</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/io.netty:netty:jar:3.10.6.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.ning:compress-lzf:jar:1.0.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.tdunning:t-digest:jar:3.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.hdrhistogram:HdrHistogram:jar:2.1.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/commons-cli:commons-cli:jar:1.3.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.twitter:jsr166e:jar:1.1.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/com.fasterxml.jackson.core:jackson-core:jar:2.8.10</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.10.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.10.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
-            <node x="" y="">io.searchbox:jest:jar:5.3.3</node>
-            <node x="" y="">io.searchbox:jest:jar:5.3.3/io.searchbox:jest-common:jar:5.3.3</node>
-            <node x="" y="">io.searchbox:jest:jar:5.3.3/io.searchbox:jest-common:jar:5.3.3/com.google.guava:guava:jar:21.0</node>
-            <node x="" y="">io.searchbox:jest:jar:5.3.3/io.searchbox:jest-common:jar:5.3.3/com.google.code.gson:gson:jar:2.8.2</node>
-            <node x="" y="">io.searchbox:jest:jar:5.3.3/org.apache.httpcomponents:httpcore-nio:jar:4.4.6</node>
-            <node x="" y="">io.searchbox:jest:jar:5.3.3/org.apache.httpcomponents:httpcore-nio:jar:4.4.6/org.apache.httpcomponents:httpcore:jar:4.4.9</node>
-            <node x="" y="">io.searchbox:jest:jar:5.3.3/org.apache.httpcomponents:httpclient:jar:4.5.5</node>
-            <node x="" y="">io.searchbox:jest:jar:5.3.3/org.apache.httpcomponents:httpclient:jar:4.5.5/commons-codec:commons-codec:jar:1.10</node>
-            <node x="" y="">io.searchbox:jest:jar:5.3.3/org.apache.httpcomponents:httpasyncclient:jar:4.1.3</node>
-            <node x="" y="">io.searchbox:jest:jar:5.3.3/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.27</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.27/org.apache.tomcat:tomcat-annotations-api:jar:8.5.27</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.27</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.27</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-web:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-aop:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-beans:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-webmvc:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-webmvc:jar:4.3.14.RELEASE/org.springframework:spring-expression:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/junit:junit:jar:4.12</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.assertj:assertj-core:jar:2.6.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.springframework:spring-core:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.springframework:spring-test:jar:4.3.14.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9735452909418117" x="1066.9409987989375" y="1015.4879972816539" />
-          <SelectedNodes />
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-16-elasticsearch/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springboot-21-deploy/src/main/java/early_bird/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/elasticsearch/ElasticsearchAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/Springboot16ElasticsearchApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/2.1.10.RELEASE/spring-data-elasticsearch-2.1.10.RELEASE.jar!/org/springframework/data/elasticsearch/repository/support/AbstractElasticsearchRepository.class">
+    <entry file="file://$PROJECT_DIR$/springboot-21-deploy/src/main/java/early_bird/Springboot21DeployApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/2.1.10.RELEASE/spring-data-elasticsearch-2.1.10.RELEASE.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchCrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/bean/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/bean/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-16-elasticsearch/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-16-elasticsearch/src/main/java/early_bird/repository/BookRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-16-elasticsearch/src/test/java/early_bird/Springboot16ElasticsearchApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/springboot-22-actuator/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="30" column="72" lean-forward="true" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
+        <state relative-caret-position="782">
+          <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-20-springcloud-eureka-server/src/main/java/early_bird/Springboot20SpringcloudEurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-22-actuator/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-22-actuator/src/main/java/early_bird/Springboot22ActuatorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-22-actuator/src/main/java/early_bird/health/MyHealthIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2372,7 +2241,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springboot-16-elasticsearch</last-edited>
+          <last-edited>springboot-22-actuator</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

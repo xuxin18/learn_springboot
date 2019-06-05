@@ -26,6 +26,15 @@
         <option value="$PROJECT_DIR$/springboot-14-cache/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-15-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-16-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-17-task/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-18-security/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-19-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-19-dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-springcloud-eureka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-21-deploy/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-22-actuator/pom.xml" />
       </list>
     </option>
   </component>

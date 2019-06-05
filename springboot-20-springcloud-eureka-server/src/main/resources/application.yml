@@ -1,0 +1,15 @@
+
+server:
+  port: 8761
+eureka:
+  instance:
+    # \u6307\u5B9A eureka \u5B9E\u4F8B\u7684\u4E3B\u673A\u540D
+    hostname: eureka-server
+  client:
+    # \u8BBE\u7F6E\u4E3A false \uFF0C\u662F\u4E3A\u4E86\u4E0D\u5C06 \u81EA\u8EAB\u6CE8\u518C\u5230 eureka-server \u4E2D
+    register-with-eureka: false
+    # \u4E0D\u4ECE eureka-server \u83B7\u53D6\u670D\u52A1\u7684\u6CE8\u518C\u4FE1\u606F
+    fetch-registry: false
+    # \u6307\u5B9A eureka \u6CE8\u518C\u4E2D\u5FC3\u7684\u5730\u5740
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
