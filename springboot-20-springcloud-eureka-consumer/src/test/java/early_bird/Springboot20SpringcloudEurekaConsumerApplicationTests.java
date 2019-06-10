@@ -11,6 +11,7 @@ public class Springboot20SpringcloudEurekaConsumerApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }

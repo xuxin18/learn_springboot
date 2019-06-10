@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 	配置 dubbo 的注册中心地址
 	引用服务
 */
+
 @SpringBootApplication
 public class Springboot19DubboConsumerApplication {
 
