@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 	springboot使用一个默认全局的配置文件，配置文件是固定的：application.properties 或 application.yml
 		推荐使用 yml文件作为配置文件
 
-    YAML 是 json 的超集合，即 YAML支持json格式
+    YAML 是 json 的超集，即 YAML支持json格式
 	YAML（yml：A markup language）语法：
 	    1.大小写敏感
 	    2.使用缩进表示层级关系

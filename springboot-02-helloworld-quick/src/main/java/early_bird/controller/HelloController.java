@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @modified
  *
  * @RestController = @Controller + @ResponseBody
- *      @ResponseBody ： 将返回值（如果返回值为 对象 则换为 json 格式）写入到 response 的 请求体中
+ *      @ResponseBody ： 将返回值（如果返回值为 对象 则转换为 json 格式）写入到 response 的 响应体中
  */
 
 @RestController

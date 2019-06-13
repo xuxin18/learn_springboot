@@ -34,6 +34,7 @@ public class DeptController {
 
     @GetMapping("/emp/{id}")
     public Employee getEmp(@PathVariable("id") Integer id){
+        employeeMapper.insertEmp(new Employee());
        return employeeMapper.getEmpById(id);
     }
 

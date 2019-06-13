@@ -20,7 +20,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Book {
 
-    // @Value("${}"): 获取对应属性文件中定义的属性值（一般从配置文件总获取）
+    // @Value("${}"): 获取对应属性文件中定义的属性值（一般从配置文件中获取）
     @Value("${book.name}")
     private String name;
 

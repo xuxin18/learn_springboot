@@ -19,7 +19,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MyAppConfig {
 
-    //将方法的返回值天骄到容器中（容器中这个组件的默认id就是方法名）
+    //将方法的返回值添加到容器中（容器中这个组件的默认id就是方法名）
     @Bean
     public HelloService helloService(){
         System.out.println("配置类 @Bean 给容器中添加了组件");

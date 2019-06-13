@@ -23,10 +23,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *              通过 selectImports 方法可以看出：这些组件（自动配置类： xxxAutoConfiguration）会被添加到容器中,并配置好这些组件后，
  *                  以数组（存放组件的全类名）方式返回；
  *                  selectImports() -> getCandidateConfigurations() -> SpringFactoriesLoader.loadFactoryNames() 可以看出：
- *                      springboot在启动的时候会从 /spring-boot-autoconfigure-1.5.9.RELEASE.jar/META-INF/spring.factories 中
+ *                      springboot在启动的时候会从 /spring-boot-autoconfigure-1.5.10.RELEASE.jar/META-INF/spring.factories 中
  *                      获取 EnableAutoConfiguration 指定的值，将这些值作为自动配置类导入到容器中，自动配置类就生效了，帮我们进行自动
  *                      配置（以前需要我们自己配置的东西，自动配置都帮我们配置好了）。
- *                  j2ee的整体整合方案和自动配置方案都在 spring-boot-autoconfigure-1.5.9.RELEASE.jar
+ *                  j2ee的整体整合方案和自动配置方案都在 spring-boot-autoconfigure-1.5.10.RELEASE.jar
  *
  *          @AutoConfigurationPackage -> @Import(AutoConfigurationPackages.Registrar.class)
  *          说明：@Import 是 Spring 底层注解，作用是给容器中导入一个组件。导入的组件为 AutoConfigurationPackages.Registrar.class
