@@ -25,7 +25,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  	-classpath: /config/      即： application-3.yml 所在的位置
  	-classpath: /             即： application.yml   所在的位置（springboot主配置文件的默认位置）
 		这4个位置的主配置文件的 加载优先级 是 由高到低，高优先级的配置会覆盖低优先级的配置；
- 		值得注意的是：springboot会从这四个位置 全部 加载主配置文件；这四个文件会进行 互补配置
+ 		值得注意的是：springboot会从这四个位置 全部都 加载主配置文件；这四个文件会进行 互补配置
 
  项目打好包后，我们还可以使用命令行参数的形式，启动项目的时候指定配置文件的新位置，这个指定的配置文件和默认
  	加载的配置文件会 共同起作用，形成互补配置。例如：

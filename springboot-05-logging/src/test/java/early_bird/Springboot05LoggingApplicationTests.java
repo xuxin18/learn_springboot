@@ -19,7 +19,7 @@ public class Springboot05LoggingApplicationTests {
 		/*
 			日志级别：由低到高
 				可以调整日志的输出级别
-				界别越高输出的信息越少（即，error 级别信息最少，trace 级别信息最多）
+				级别越高输出的信息越少（即，error 级别信息最少，trace 级别信息最多）
 		    可以在配置文件中指定日志级别
 		*/
 		logger.trace("这是trace");

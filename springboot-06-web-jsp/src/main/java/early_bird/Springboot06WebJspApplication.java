@@ -22,7 +22,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 	静态内部类 FaviconConfiguration 中可以设置 喜欢的图标， 所有路径下的/favicon.ico 都会在静态资源文件下找
 
 	jsp（java server page ）：专门给java server 用的（即在容器里运行）
-	springboot是内嵌web容器，推挤打成jar包而不是war包（如果打成war包，这就相当于失去了一些springboot的特性）
+	springboot是内嵌web容器，推荐打成jar包而不是war包（如果打成war包，这就相当于失去了一些springboot的特性）
 	为了能在jar包中使用类似jsp的强大功能（动态获取信息），需要使用模板引擎。模板引擎的原理：
 		模板 + 数据 通过 模板引擎 的处理，转化为我们需要的信息。
 

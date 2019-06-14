@@ -15,7 +15,7 @@ import java.util.Map;
  * 出现错误后，如果容器中
  *      没有AbstractErrorController类型的 bean，那么就会由 BasicErrorController 处理请求，
  *          通过对BasicErrorController中的 errorHtml 和 error 方法分析，其返回的数据都是由 getErrorAttributes 方法构造
- *              如果容器中没有 ErrorAttributes 类型的 bean 则，创建 DefaultErrorAttributes 的 bean实体，由该实体的
+ *              如果容器中没有 ErrorAttributes 类型的 bean， 则创建 DefaultErrorAttributes 的 bean实体，由该实体的
  *              getErrorAttributes 方法 将数据构造返回给 ModelAndView（视图解析器）
  *
  * 通过上面这个流程，我们可以看出如果想要将我们自定义的数据返回给ModelAndView，有两种方式可以实现我们的需求：

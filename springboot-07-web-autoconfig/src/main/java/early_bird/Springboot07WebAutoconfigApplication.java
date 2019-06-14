@@ -26,13 +26,14 @@ import java.util.Locale;
 
 	为什么我们自己写的 这些组件会自动生效？
 		这个方法很重要：
-			getBeansOfType(Class<T> type)： 根据传入的形参的 类型，返回容器中所有的属于该类型的 bean。
-			然后 springboot 遍历这所有的组件，自动加载，所以它们都能自动生效
+			getBeansOfType(Class<T> type)： 根据传入的Class文件的 类型，返回容器中所有的属于该类型的 bean。
+			然后 springboot 遍历所有的组件，自动加载，所以它们都能自动生效
 
 	ps：如果自动配置类中，只有一个构造函数，那么构造函数中的每一个参数都是从容器中获取
 
 	如何修改SpringBoot的默认配置？
-		SpringBoot在自动配置很多组件的时候，先看容器中有没有用户自己配置的（@Bean、@Component）如果有就用用户配置的，如果没有，才自动配置；如果某些组件可以有多个（ViewResolver）则将用户配置的和自己默认的组合起来；
+		SpringBoot在自动配置很多组件的时候，先看容器中有没有用户自己配置的（@Bean、@Component）如果有就用用户配置的，如果没有，才自动配置；如果某些组件可以有多
+			个（ViewResolver）则将用户配置的和自己默认的组合起来；
 		在SpringBoot中会有非常多的 ***Configurer 帮助我们进行扩展配置
 		在SpringBoot中会有很多的xxxCustomizer帮助我们进行定制配置
 */

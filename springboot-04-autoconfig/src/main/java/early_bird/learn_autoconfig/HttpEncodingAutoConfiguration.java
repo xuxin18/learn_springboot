@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.boot.autoconfigure.web.HttpEncodingProperties;
-import org.springframework.boot.autoconfigure.web.HttpEncodingProperties.Type;
 import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -38,8 +37,7 @@ import org.springframework.web.filter.CharacterEncodingFilter;
 												// 从配置文件中获取指定的值和bean的属性进行绑定），并将 HttpEncodingProperties 加入到ioc容器中
 @ConditionalOnWebApplication //判断当前应用是否为 web应用，如果是，则当前配置生效
 @ConditionalOnClass(CharacterEncodingFilter.class) //判断当前项目中有没有 CharacterEncodingFilter类（springmvc中解决乱码的过滤器），如果有，则配置生效
-@ConditionalOnProperty(prefix = "spring.http.encoding", value = "enabled", matchIfMissing = true) //判断配置文件中是否存在spring.http.encoding.enabled 配置项
-																			// （如果不存在spring.http.encoding.enabled=true，则默认spring.http.encoding.enabled=true生效），让配置生效
+@ConditionalOnProperty(prefix = "spring.http.encoding", value = "enabled", matchIfMissing = true) //判断配置文件中是否存在spring.http.encoding.enabled 配置项（如果不存在spring.http.encoding.enabled=true，则默认spring.http.encoding.enabled=true生效），让配置生效
 public class HttpEncodingAutoConfiguration {
 
 	// 通过 @EnableConfigurationProperties 注解，将变量 properties 与 配置文件进行了映射
@@ -54,8 +52,8 @@ public class HttpEncodingAutoConfiguration {
 	public CharacterEncodingFilter characterEncodingFilter() {
 		CharacterEncodingFilter filter = new OrderedCharacterEncodingFilter();
 		filter.setEncoding(this.properties.getCharset().name());
-		filter.setForceRequestEncoding(this.properties.shouldForce(Type.REQUEST));
-		filter.setForceResponseEncoding(this.properties.shouldForce(Type.RESPONSE));
+		/*filter.setForceRequestEncoding(this.properties.shouldForce(Type.REQUEST));
+		filter.setForceResponseEncoding(this.properties.shouldForce(Type.RESPONSE));*/
 		return filter;
 	}
 

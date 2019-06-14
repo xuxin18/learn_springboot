@@ -4,6 +4,44 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /*
+REST（Representational State Transfer）：表象化状态转变（也可以称为 表述性状态转移）
+	REST 是 Web 服务的一种架构风格（在2000年由thomas博士提出，它不是一种标准，而是一种思想）
+	使用 Http、uri 等广泛流行的标准和协议
+	轻量级、跨平台、跨语言的架构设计
+
+RESTful：Rest风格的
+RESTful Web Service 是一种常见的 遵守了 REST风格的web服务 应用
+REST式的web服务是一种 ROA（面向资源的架构）
+
+REST架构的主要原则：
+	网络上的所有事物都可被抽象为 资源（Resource）
+	每个资源都有唯一的资源标识符（Resource Identifier）
+		url限定：
+			不要使用大写字母
+			使用中线 - 代替下滑线 _
+			参数列表应该被 encode 过
+		响应设计：
+			content body 仅仅用来传输数据
+			数据要做到拿来就可用的原则，不需要“拆箱”的过程
+			用来描述数据或者请求的元数据放Header中，例如 X-Result-Fields（指定数据返回的字段集合）
+	同一资源具有多种表现形式（xml、json等）
+	对资源的各种操作不会改变资源标识符
+		幂等性：对同一个REST接口的多次访问，得到的资源状态是相同的
+		安全性：对REST接口的访问，不会使服务器端资源状态发生改变
+		资源操作：
+			请求方式		具体操作				幂等		安全
+			get			获取一个资源			是		是
+			post		创建一个新的资源		否		否
+			put			修改一个资源的状态		是		否
+			delete		删除一个资源			是		否
+	所有的操作都是无状态的（Stateless）
+		无状态性使得客户端和服务器端不必保存对象的详细信息，服务器只需要处理当前Request
+			而不必了解前面的Request的历史。
+		可以更容易的释放资源
+		让服务器充分的利用 Pool 技术来提高稳定性和性能
+	符合REST原则的架构方式可称为 RESTful
+
+
 SpringBoot 默认的错误处理机制：
 	浏览器访问，出现错误，默认返回一个错误页面 Whitelabel Error Page
 	客户端访问，默认响应一个 json 数据
@@ -25,7 +63,7 @@ SpringBoot 默认的错误处理机制：
 				resolveErrorView方法：将 ErrorViewResolver 解析得到 ModelAndView（即决定了错误响应内容）
 				resolver 方法：决定了响应内容
 					在该方法中可以看出：
-						对默认的错误页面 ，系统中引入了模板引擎，则由模板引擎对页面进行解析后返回；如果没有则在静态文件夹下(resource.static.error)找到对应的页面进行处理后返回
+						对默认的错误页面 ，系统中引入了模板引擎，则由模板引擎对页面进行解析后返回；如果没有，则在静态文件夹下(resource.static.error)找到对应的页面进行处理后返回
 						如果是自定义的错误页面，如果想要让模板引擎解析，则需要放在 resource.template.error 目录下
 
 	如何定制错误响应：

@@ -19,16 +19,12 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  *              1. WebMvcAutoConfiguration 是 SpringMvc 的自动配置类 中的静态内部类 WebMvcAutoConfigurationAdapter
  *                  在做自动配置时会导入 @Import(EnableWebMvcConfiguration.class)
  *              2. EnableWebMvcConfiguration 类继承了 DelegatingWebMvcConfiguration，该类的 setConfigurers 会将所有
- *                  的 WebMvcConfigurer 相关配置 全部存放到 list 集合中，然后将这些配置遍历调用
+ *                  的 WebMvcConfigurer 类型的类 全部存放到 list 集合中，然后将这些配置遍历调用
  *                  这样 SpringMvc 的自动配置和我们的扩展配置都会起作用
  *
  *  如果想要全面接管 SpringMVC，那么在配置类中添加 @EnableWebMvc 即可，因为 @EnableWebMvc 注解 使用了 @Import(DelegatingWebMvcConfiguration.class)
  *      当使用 DelegatingWebMvcConfiguration 类时，会自动创建 WebMvcConfigurationSupport 组件
  *      而 WebMvcAutoConfiguration 只有在 容器中没有 WebMvcConfigurationSupport 组件时才生效
- *
- *
- *
- *
  */
 @Configuration
 public class MyMvcConfig extends WebMvcConfigurerAdapter {

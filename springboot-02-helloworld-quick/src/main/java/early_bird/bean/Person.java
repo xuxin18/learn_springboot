@@ -31,7 +31,7 @@ import java.util.Map;
  *          springboot中没有spring的配置文件，我们自己写的配置文件也不能识别，想让spring配置文件生效，
  *          则 使用 @ImportResource 标注在 启动类上
  *
- *          注意：springboot推荐给容器中添加组价的方式为 全注解的方式：
+ *          注意：springboot推荐给容器中添加组件的方式为 全注解的方式：
  *                  1.使用配置类 @Configuration 来替代 spring的xml配置文件
  *                  2.使用 @Bean 给容器中添加组件
  *
