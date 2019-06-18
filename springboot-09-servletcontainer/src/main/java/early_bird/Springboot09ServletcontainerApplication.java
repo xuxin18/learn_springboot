@@ -7,16 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 配置嵌入式Servlet容器：
 	springboot默认使用 tomcat 作为嵌入式的 servlet容器（具体可见 spring-boot-starter-web 启动器依赖的jar包中包含有 spring-boot-starter-tomcat）
 
-如何定制和修改servlet容器的相关配置？
-	1.在配置文件中修改和server有关的配置（其实本质也是 实现了EmbeddedServletContainerCustomizer 接口的 customize 方法）
-	2.自定义一个 EmbeddedServletContainerCustomizer(嵌入式Servlet容器的定制器)来修改 Servlet容器的配置
-
 注册Servlet三大组件（Servlet、Filter、Listener）：
 	由于SpringBoot默认是以jar包的方式启动嵌入式的Servlet容器来启动SpringBoot的Web应用，没有web.xml文件。注册三大组件的方式为：
 		ServletRegistrationBean
 		FilterRegistrationBean
 		ServletListenerRegistrationBean
-			原理：具体查看 EmbeddedWebApplicationContext 的 onRefresh -> createEmbeddedServletContainer ->selfInitialize 该方法可以初始化 ServletContextInitializer 类型的类
+			原理：具体查看 EmbeddedWebApplicationContext 的 onRefresh -> createEmbeddedServletContainer ->selfInitialize 该方法可以初始化
+			 	 ServletContextInitializer 类型的类
+				selfInitialize 方法中的 getServletContextInitializerBeans() 会按照 先加载  Servlet、再加载 Filter、最后加载 ServletListener 的方式有序加载
 
 注册Servlet的典型例子：
 	SpringBoot启动SpringMVC的时候，自动注册了 SpringMVC的前端控制器（DisPatcherServlet）
@@ -31,9 +29,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 		SpringBoot内嵌3中Servlet容器：
 			Tomcat、Undertow、Jetty
 			简介：
-				Undertow 和 jetty 都是基于 NIO 实现的高并发轻量级服务器（使用于长连接场景（更满足公有云的分布式环境） 例如：聊天系统）
+				Undertow 和 jetty 都是基于 NIO 实现的高并发轻量级服务器（适用于长连接场景（更满足公有云的分布式环境） 例如：聊天系统）
 				tomcat 适用于 短连接（一般是企业级环境）
 	具体如何修改为其他容器，详见 pom 文件
+
+如何定制和修改servlet容器的相关配置？
+	1.在配置文件中修改和server有关的配置（ServerProperties，其实本质也是 实现了EmbeddedServletContainerCustomizer 接口的 customize 方法）
+		在 springboot启动的时候加载的 类路径中的 META-INF路径下的 spring.factory中的 EnableAutoConfiguration 中存在 ServerPropertiesAutoConfiguration
+		ServerPropertiesAutoConfiguration 会加载 ServerProperties 也就是加载配置文件中 Server相关配置
+	2.自定义一个 EmbeddedServletContainerCustomizer(嵌入式Servlet容器的定制器)来修改 Servlet容器的配置
 
 （ xxxBeanPostProcessor 在spring中称为： xxx后置处理器，它的作用是 在 xxx 初始化之前 和 初始化之后 为 xxx 赋值）
 为什么 EmbeddedServletContainerCustomizer（嵌入式Servlet容器定制器）可以帮我们修改Servlet容器的配置？
@@ -74,7 +78,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 			创建 Tomcat tomcat = new Tomcat() 并给 tomcat容器设置一些属性（这些属性从工厂中获取）
 			启动 getTomcatEmbeddedServletContainer(tomcat)
 		todo AbstractApplicationContext 类的 refresh 方法。该方法是SpringBoot启动的核心 https://www.jianshu.com/p/5d75c9bdf0c6
-
 
 */
 @SpringBootApplication

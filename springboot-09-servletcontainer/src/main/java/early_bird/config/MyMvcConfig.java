@@ -49,7 +49,12 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
     }
 
 
-    //启动容器发现  Tomcat started on port(s): 8082 (http) 即定制器生效（优先于配置文件生效）
+    /*
+        启动容器发现  Tomcat started on port(s): 8082 (http) 即定制器生效（优先于配置文件生效），这是为什么呢？
+            在 EmbeddedServletContainerCustomizerBeanPostProcessor类的 postProcessBeforeInitialization 方法中发现在
+            调用 getCustomizers() 方法时会对 我们定制的 XXXCustomizer 进行排序，而 ServerProperties 定制器 排在 MyMvcConfig 中的 定制器前面
+            所以 在进行遍历 赋值时，MyMvcConfig 中的 定制的 EmbeddedServletContainerCustomizer 相关的设置，会覆盖之前的相关设置
+    */
     @Bean //将自定义的定制器加入到容器中
     public EmbeddedServletContainerCustomizer embeddedServletContainerCustomizer(){
         return new EmbeddedServletContainerCustomizer() {

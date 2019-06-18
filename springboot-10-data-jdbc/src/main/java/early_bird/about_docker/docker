@@ -1,0 +1,56 @@
+应用程序带环境安装的解决方案：
+    虚拟机
+    Linux容器（不是模拟一个完整的操作系统，而是对进程进行隔离。或者说，在正常进程外面套了一个保护层
+        对于容器里面的进程来说，它接触到的各种资源都是虚拟的，从而实现与底层系统的隔离）
+
+docker 相关知识：
+    docker 属于linux容器的一种封装，是一个开源的应用容器引擎，是一个轻量级的容器技术。
+    docker 将 应用程序 与 该程序的依赖，打包在一个文件里面（images）。运行这个文件
+        就会生成一个虚拟容器。程序在这个虚拟容器里运行，就好像在真实的物理机上运行一样
+        有了docker，就不用担心环境问题了（这个地方可以类比 windows的镜像系统：例如原生
+        的windows系统 安装了 各种软件、驱动后，可以将整个软件系统打包成一个windows镜像
+        系统，以后在其他计算机上直接安装这个镜像系统就好了，不用再先安装原生系统，再装软
+        件、驱动这样一步一步操作了）。
+
+docker相对虚拟机的优势：启动快、资源占用少、体积小，提供了简单易用的容器接口
+
+docker用途：
+    提供一次性的环境。（例如：在自己的机器上跑别人的软件，这个时候可以将别人的软件环境与软件打包成
+                    镜像，安装到自己的docker里面运行）
+    提供弹性的云服务。（因为docker容器可以随时开启和关闭，很适合动态扩容和缩容）
+    组建微服务架构。（通过多个docker容器，一台机器可以跑多个服务，因此在本机就可以模拟出微服务架构）
+
+docker一些核心概念：
+    host（docker主机）    ： 安装了docker程序的机器（docker直接安装在操作系统之上）
+    client（docker客户端）： 连接docker主机进行操作
+    registry（docker仓库）： 用来保存各种打包好的images
+    images（docker镜像）  ： 将 软件 及 软件的依赖 打包形成的文件
+    container（docker容器）：images 启动后的实例称为一个容器（容器时独立运行的一个或一组应用）
+
+docker的简单使用：
+    1.安装docker
+        在 linux 环境下安装，
+            需要检查linux内核版本，必须是 3.10 以上。检查内核版本的命令：  uname -r
+            docker安装命令：     yum install docker
+            验证安装是否成功命令： docker verson 或者 docker info
+                注意：docker需要用户具有sudo权限，为了避免每次命令都输入 sudo，可以将用户加入
+                        docker 用户组（参考 https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user ）。
+                        自己使用时，也可以直接切换到 root 用户 进行命令操作
+            docker启动命令：     systemctl start docker
+            docker停止命令：     systemctl stop docker
+            设置开机启动docker：  systemctl enable docker
+    2.去 docker仓库中找到需要安装的软件对应的image
+        查找软件对应的image命令： docker search 关键字  （例如：docker search redis，一般直接去 docker hub 上搜索，会显示更详细的信息及操作命令）
+        拉取 image 的命令     ： docker pull 镜像名:tag (tag 表示标签，多为软件的版本，如果不写，则默认为最新版)
+        images列表命令        ： docker images (查看所有的本地镜像)
+        image删除命令         ： docker rmi image-id （根据镜像id来删除指定的本地镜像）
+    3.使用docker 运行 这个image，就会生成 这个 image 对应的 container（对容器的启动停止，就是对软件的启动停止）
+        image的启动命令：    不同的 image 的启动命令也不一样。具体参考 docker hub
+        查看docker中运行的容器的命令：  docker ps
+        查看docker中的所有容器的命令：  docker ps -a （无论容器是否早运行都会显示）
+        容器的启动命令：               docker start 容器id
+        容器的关闭命令：               docker stop 容器id
+        删除容器的命令：               docker rm 容器id
+        重启容器的命令：               docker restart 容器id
+
+todo docker可供参考的书籍： https://yeasy.gitbooks.io/docker_practice/CONTRIBUTING.html

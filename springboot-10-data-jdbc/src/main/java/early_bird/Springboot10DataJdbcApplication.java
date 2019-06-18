@@ -19,6 +19,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 					具名参数: SQL 按名称(以冒号开头)而不是按位置进行指定. 具名参数更易于维护, 也提升了可读性.
 					具名参数 只在 NamedPrameterJdbcTemplate 中支持
 
+使用docker运行mysql镜像的命令：
+	docker run -p 3306:3306 --name mysql01 -e MYSQL_ROOT_PASSWORD=123456 -d mysql
+		参数含义：
+			-p 端口映射: 主机(宿主)端口:容器端口
+				容器端口提供给容器内部的软件使用
+		    --name 给容器命名
+		    -e MYSQL_ROOT_PASSWORD=123456 ：启动 mysql 镜像的写法，设置数据库 root 用户的密码为 123456
+		    -d 后台运行容器，并返回容器ID
 */
 @SpringBootApplication
 public class Springboot10DataJdbcApplication {
