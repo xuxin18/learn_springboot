@@ -31,7 +31,8 @@
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
-			<version>1.3.1</version>
+			<!-- 之前做的时候是1.3.1版本 -->
+			<version>2.0.1</version>
 		</dependency>
 
 		<dependency>
