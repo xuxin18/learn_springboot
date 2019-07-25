@@ -15,7 +15,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 						的类路径下的 /META-INF/Spring.factories 配置的 所有的 ApplicationContextInitializer 保存到Set集合中
 					createSpringFactoriesInstances(type, parameterTypes, classLoader, args, names)：根据上面存的 类名 通过反射的方式，创建这些类的实例，存放到 List集合 instance 中
 			setListeners((Collection) getSpringFactoriesInstances(ApplicationListener.class)):与上面的 setInitializers 的流程一样，只是 传入的参数改为了 ApplicationListener
-		run(args):
 
 		initialize（主程序类）详解：
 			private void initialize(Object[] sources) {
@@ -29,7 +28,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 				setInitializers((Collection) getSpringFactoriesInstances(ApplicationContextInitializer.class));
 				4.从类路径下找到的 META-INF/spring.factories 中配置的所有 ApplicationListener,并创建，保存到 SpringApplication 中
 				setListeners((Collection) getSpringFactoriesInstances(ApplicationListener.class));
-				5.遍历当前运行的多个配置类，从中找到 主配置类，并保存到 SpringApplication 中
+				5.遍历当前栈帧，从中找到 运行了 main 方法的类（即主程序类），通过反射创建主程序类的实例，并保存到 SpringApplication 中
 				this.mainApplicationClass = deduceMainApplicationClass();
 			}
 		run(args)详解：
@@ -86,7 +85,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 启动过程中比较重要的类：
 	配置在 META-INF/spring.factories中
 		ApplicationContextInitializer
-		SpringApplicationRunListener
+		ApplicationListener
 
 	只需要放在ioc容器中
 		ApplicationRunner
@@ -196,7 +195,9 @@ refresh() 方法详解：
 public class Springboot13MainApplication {
 
 	public static void main(String[] args) {
+		System.out.println("调用 run 方法");
 		SpringApplication.run(Springboot13MainApplication.class, args);
+		System.out.println("执行完毕");
 	}
 
 }

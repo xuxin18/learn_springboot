@@ -52,5 +52,11 @@ docker的简单使用：
         容器的关闭命令：               docker stop 容器id
         删除容器的命令：               docker rm 容器id
         重启容器的命令：               docker restart 容器id
+        查看容器中进程的命令：          docker top 容器id
+        查看容器日志命令：             docker logs 容器id（更常用写法：docker logs -f --tail=10 -t 容器id
+                                                        -f：查看实时日志； --tail 控制输出行数； -t 显示日志输出时间）
+    4. 查看容器信息或者镜像信息的命令：            docker inspect 容器id/镜像id
+
+
 
 todo docker可供参考的书籍： https://yeasy.gitbooks.io/docker_practice/CONTRIBUTING.html
